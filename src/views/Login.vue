@@ -10,7 +10,7 @@
     const password = useField('password')
     const submit = handleSubmit((values) =>{
         auth.login(values)
-    })
+    });
 
 </script>
 
