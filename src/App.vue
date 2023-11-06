@@ -8,10 +8,14 @@ import { RouterLink, RouterView } from 'vue-router';
     <v-layout>
       <v-app-bar color="green-lighten-1">
         <template v-slot:prepend>
-          <v-btn :to="{name:'home'}">CARH</v-btn>
+          <v-btn :to="{name:'home'}"><v-img width="40" :aspect-ratio="1" src="../public/CARH.png" ></v-img></v-btn>
         </template>
         <template v-slot:append>
           <v-btn :to="{name:'home'}">Regeneration</v-btn>
+          <v-btn :to="{name:'thin'}">Thinking</v-btn>
+          <v-btn :to="{name:'disc'}">Discovering</v-btn>
+          <v-btn :to="{name:'maint'}">Maintaining</v-btn>
+          <v-btn :to="{name:'us'}">Us</v-btn>
           <v-btn :to="{name:'login'}"><i class="fa-solid fa-user"></i></v-btn>
         </template>
       </v-app-bar>

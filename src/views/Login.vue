@@ -15,15 +15,16 @@
 </script>
 
 <template>
-    <v-card flat max-with="600">
+    <v-card flat max-with="600" >
         <v-card-title>
             <h1>Iniciar sesion</h1>
         </v-card-title>
 
         <v-alert
+            v-if="auth.hasError"
             class="my-5"
             type="error"
-            title="Alert title"
+            :title="auth.errorMsg"
             
         ></v-alert>
 

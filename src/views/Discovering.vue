@@ -2,5 +2,5 @@
 </script>
 
 <template>
-  <h1>bienvenido</h1>
+    <h1>logros y descubriemientos</h1>
 </template>
