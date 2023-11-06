@@ -1,0 +1,6 @@
+:root{
+  --colorBlanco: #fff;
+}
+body{
+  background-color: var(--colorBlanco);
+}
